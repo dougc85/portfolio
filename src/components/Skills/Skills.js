@@ -1,6 +1,5 @@
 import React from 'react';
 import { SkillsStyled } from './Skills.styled';
-import styledIcon from './styledcomponents.svg';
 
 function Skills() {
   return (
@@ -14,7 +13,7 @@ function Skills() {
         <i class="devicon-typescript-plain colored"></i>
         <i class="devicon-jest-plain colored"></i>
         <i class="devicon-sass-original colored"></i>
-        <img src="./styled-components.png" alt="styled-components icon" />
+        <img src="./images/styled-components.png" alt="styled-components icon" />
         <i class="devicon-firebase-plain-wordmark colored"></i>
         <i class="devicon-git-plain colored"></i>
         <i class="devicon-webpack-plain-wordmark colored"></i>

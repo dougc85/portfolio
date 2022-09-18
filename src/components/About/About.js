@@ -5,7 +5,7 @@ function About() {
   return (
     <AboutStyled id="About">
 
-      <img src="/profile.jpg" alt="Doug Carter, web developer" />
+      <img src="/images/profile.jpg" alt="Doug Carter, web developer" />
       <div>
         <h2>About Me</h2>
         <p>

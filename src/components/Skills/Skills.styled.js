@@ -6,31 +6,33 @@ export const SkillsStyled = styled.section`
   text-align: center;
   padding: 2rem;
   font-size: 1.8rem;
-  height: 500px;
   display: flex;
   flex-direction: column;
 
   h2 {
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
+    font-size: 3rem;
   }
 
   >div {
     flex: 1;
     margin: 0 auto;
-    max-width: 600px;
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
+    min-width: 80%;
+    display: grid;
+    grid-template-columns: minmax(0,1fr) minmax(0,1fr) minmax(0,1fr) minmax(0,1fr);
+    gap: 3rem 10px;
+    place-content: center;
+    margin-bottom: 2rem;
+
 
     i {
-      font-size: 100px;
-      margin: 0 1rem;
+      font-size: calc(30px + 5vw);;
       display: block;
     }
     img {
-      height: 100px;
+      height: calc(30px + 5vw);
       display: block;
-      border: 1px solid red;
+      justify-self: center;
     }
   }
   

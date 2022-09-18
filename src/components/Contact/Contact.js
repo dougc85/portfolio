@@ -3,7 +3,7 @@ import { ContactStyled } from './Contact.styled';
 
 function Contact() {
   return (
-    <ContactStyled>
+    <ContactStyled id="Contact">
 
     </ContactStyled>
   )

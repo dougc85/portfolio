@@ -3,7 +3,7 @@ import { ProjectsStyled } from './Projects.styled';
 
 function Projects() {
   return (
-    <ProjectsStyled>
+    <ProjectsStyled id="Projects">
 
     </ProjectsStyled>
   )

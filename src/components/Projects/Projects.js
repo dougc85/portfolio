@@ -10,7 +10,7 @@ function Projects() {
       <h2>Projects</h2>
       <ul>
         {projects.map((project) => (
-          <Project image={project.img} name={project.name} description={project.description} />
+          <Project image={project.img} name={project.name} description={project.description} live={project.live} repo={project.repo} />
         ))}
       </ul>
     </ProjectsStyled>

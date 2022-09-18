@@ -4,14 +4,14 @@ export const SkillsStyled = styled.section`
   background-color: black;
   color: white;
   text-align: center;
-  padding: 2rem;
+  padding: 4rem;
   font-size: 1.8rem;
   display: flex;
   flex-direction: column;
 
   h2 {
-    margin-bottom: 3rem;
-    font-size: 3rem;
+    margin-bottom: 5rem;
+    font-size: 4rem;
   }
 
   >div {
@@ -20,9 +20,9 @@ export const SkillsStyled = styled.section`
     min-width: 80%;
     display: grid;
     grid-template-columns: minmax(0,1fr) minmax(0,1fr) minmax(0,1fr) minmax(0,1fr);
-    gap: 3rem 10px;
+    gap: 6rem 10px;
     place-content: center;
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
 
 
     i {

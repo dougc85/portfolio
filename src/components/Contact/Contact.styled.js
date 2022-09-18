@@ -4,15 +4,15 @@ const backgroundColor = '#dfe5f4';
 
 export const ContactBackground = styled.div`
   background-color: black;
-  padding: 4rem;
+  padding: 5rem;
 `;
 
 export const ContactStyled = styled.div`
   max-width: 700px;
   margin: 0 auto;
   box-sizing: border-box;
-  font-size: 1.5rem;
-  padding: 1rem 4rem 2rem 4rem;
+  font-size: 2rem;
+  padding: 2rem 5rem 3rem 5rem;
   text-align: start;
   border-radius: 20px;
   background-color: ${backgroundColor};
@@ -20,19 +20,19 @@ export const ContactStyled = styled.div`
   >h2 {
     text-align: center;
     font-weight: 700;
-    font-size: 3rem;
+    font-size: 4rem;
     color: black;
     margin: 0 auto 2rem auto;
   }
 
   >p {
-    height: 600px;
+    height: 500px;
     text-align: center;
   }
 `
 
 export const ContactForm = styled.form`
-  height: 600px;
+  height: 500px;
   display: flex;
   flex-direction: column;
 
@@ -87,8 +87,8 @@ export const FormElementButton = styled.div`
     background-color: white;
     border: 1px solid #ababab;
     border-radius: 10px;
-    padding: 10px;
-    font-size: 1.6rem;
+    padding: 12px;
+    font-size: 2rem;
     position: relative;
     cursor: pointer;
     :active {

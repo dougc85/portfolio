@@ -2,12 +2,12 @@ import styled from 'styled-components';
 
 export const AboutStyled = styled.section`
 
-  padding: 2rem;
+  padding: 3rem;
   display: flex;
   align-items: center;
   justify-content: center;
   background-color: white;
-  margin: 2rem auto;
+  margin: 4rem auto;
 
   img {
     height: 350px;
@@ -17,14 +17,14 @@ export const AboutStyled = styled.section`
   }
 
   >div {
-    margin-left: 2rem;
+    margin-left: 4rem;
 
     h2 {
-      font-size: 1.8rem;
-      margin-bottom: 2rem;
+      font-size: 3rem;
+      margin-bottom: 3rem;
     }
     p {
-      font-size: 1.4rem;
+      font-size: 1.8rem;
       max-width: 700px;
 
       >span {
@@ -45,7 +45,7 @@ export const Links = styled.div`
       text-decoration: none;
     }
     i {
-      font-size: 3rem;
+      font-size: 4.2rem;
     }
   }
 `

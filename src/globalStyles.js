@@ -8,6 +8,11 @@ const GlobalStyle = createGlobalStyle`
     margin: 0;
   }
 
+  html {
+    scroll-behavior: smooth;
+    font-size: 62.5%;
+  }
+
   body {
     box-sizing: border-box;
   }

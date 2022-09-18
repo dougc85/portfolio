@@ -11,7 +11,12 @@ function Header() {
   ]
   return (
     <HeaderStyled>
-      <h1>Doug Carter</h1>
+      <h1>
+        Doug Carter
+        <span>
+          Web Development
+        </span>
+      </h1>
       <nav>
         <ul>
           {navItems.map((navItem) => {

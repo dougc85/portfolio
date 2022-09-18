@@ -15,15 +15,15 @@ export const ProjectStyled = styled.li`
 
   h3 {
     font-weight: bold;
-    font-size: 1.6rem;
-    margin-top: 1rem;
+    font-size: 2.4rem;
+    margin-top: 1.5rem;
   }
 
   p {
     width: 280px;
-    font-size: 1rem;
+    font-size: 1.8rem;
     text-align: center;
-    margin-top: 5px;
+    margin-top: 10px;
   }
 `
 
@@ -31,9 +31,9 @@ export const Links = styled.div`
   display: flex;
   justify-content: space-between;
   width: 70px;
-  margin-top: 5px;
+  margin-top: 10px;
   a {
-    font-size: .9rem;
+    font-size: 1.6rem;
     display: block;
     :visited, :active, :link {
       color: black;

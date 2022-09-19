@@ -101,7 +101,6 @@ export const HeaderStyled = styled.header`
         transform: translateY(100%);
         opacity: 0;
         transition: opacity .3s;
-        visibility: hidden;
         pointer-events: none;
         cursor: default;
         
@@ -113,7 +112,6 @@ export const HeaderStyled = styled.header`
 
         ${showNav ? `
         opacity: 1;
-        visibility: visible;
         cursor: auto;
         pointer-events: auto;
         ` : null}

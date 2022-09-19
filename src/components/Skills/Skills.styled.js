@@ -1,7 +1,10 @@
 import styled from 'styled-components';
+import { mediaQueries } from '../../partials';
+
+const { verySmallPhoneQuery } = mediaQueries;
 
 export const SkillsStyled = styled.section`
-  background-color: black;
+  background-color: #1c1c1c;
   color: white;
   text-align: center;
   padding: 4rem;
@@ -12,6 +15,10 @@ export const SkillsStyled = styled.section`
   h2 {
     margin-bottom: 5rem;
     font-size: 4rem;
+
+    ${verySmallPhoneQuery(`
+      font-size: 3rem;
+    `)}
   }
 
   >div {

@@ -1,10 +1,20 @@
 import styled from 'styled-components';
+import { mediaQueries } from '../../partials';
+
+const { contactQuery, smallPhoneQuery } = mediaQueries;
 
 const backgroundColor = '#dfe5f4';
 
 export const ContactBackground = styled.div`
-  background-color: black;
-  padding: 5rem;
+  background-color: #1c1c1c;
+  padding: 5rem 10rem;
+  ${contactQuery(`
+    padding: 4rem 6rem;
+  `)}
+
+  ${smallPhoneQuery(`
+    padding: 3.5rem 4rem;
+  `)}
 `;
 
 export const ContactStyled = styled.div`
@@ -17,17 +27,39 @@ export const ContactStyled = styled.div`
   border-radius: 20px;
   background-color: ${backgroundColor};
 
+  ${contactQuery(`
+      padding: 2rem 3.5rem 2.5rem 3.5rem;
+      font-size: 1.6rem;
+    `)}
+
+  ${smallPhoneQuery(`
+    border-radius: 15px;
+    padding: 1.5rem 2.5rem 2rem 2.5rem;
+  `)}
+
   >h2 {
     text-align: center;
     font-weight: 700;
     font-size: 4rem;
     color: black;
     margin: 0 auto 2rem auto;
+
+    ${contactQuery(`
+      font-size: 3rem;
+    `)}
+
+    ${smallPhoneQuery(`
+      font-size: 2.4rem;
+    `)}
   }
 
   >p {
     height: 500px;
     text-align: center;
+
+    ${contactQuery(`
+      height: 420px;
+    `)}
   }
 `
 
@@ -35,6 +67,10 @@ export const ContactForm = styled.form`
   height: 500px;
   display: flex;
   flex-direction: column;
+
+  ${contactQuery(`
+      height: 420px;
+  `)}
 
   label {
     display: block;
@@ -53,6 +89,7 @@ export const ContactForm = styled.form`
 export const FormElement = styled.div`
 
   input {
+    box-sizing: border-box;
     padding: 5px;
     padding-left: 8px;
     font-size: 1.6rem;
@@ -60,6 +97,11 @@ export const FormElement = styled.div`
     margin-bottom: 1rem;
     border-radius: 10px;
     border: 1px solid #ababab;
+    font-family: 'Raleway', sans-serif;
+
+    ${smallPhoneQuery(`
+      border-radius: 7px;
+    `)}
   }
 `
 
@@ -68,13 +110,20 @@ export const FormElementTextArea = styled.div`
   display: flex;
   flex-direction: column;
   margin-bottom: 2rem;
+  font-family: 'Raleway', sans-serif;
 
   textarea {
+    box-sizing: border-box;
     padding: 6px;
     font-size: 1.6rem;
     flex: 1;
     border-radius: 10px;
     border: 1px solid #ababab;
+    width: 100%;
+
+    ${smallPhoneQuery(`
+      border-radius: 7px;
+    `)}
   }
 `
 
@@ -94,5 +143,10 @@ export const FormElementButton = styled.div`
     :active {
       background-color: #d8d8d8;
     }
+
+    ${contactQuery(`
+      font-size: 1.6rem;
+      padding: 8px;
+    `)}
   }
 `

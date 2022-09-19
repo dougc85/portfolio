@@ -11,10 +11,17 @@ const GlobalStyle = createGlobalStyle`
   html {
     scroll-behavior: smooth;
     font-size: 62.5%;
+    font-family: 'Raleway', sans-serif;
   }
 
   body {
     box-sizing: border-box;
+    color: #1c1c1c;
+    overflow-x: hidden;
+
+    h2 {
+      font-weight: 700;
+    }
   }
 `
 

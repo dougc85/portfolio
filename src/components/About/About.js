@@ -26,10 +26,10 @@ function About() {
         </p>
         <Links>
           <a href="https://github.com/dougc85">
-            <i class="devicon-github-original colored"></i>
+            <i className="devicon-github-original colored"></i>
           </a>
           <a href="https://www.linkedin.com/in/dougcarterdeveloper/">
-            <i class="devicon-linkedin-plain colored"></i>
+            <i className="devicon-linkedin-plain colored"></i>
           </a>
         </Links>
       </div>

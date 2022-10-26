@@ -17,9 +17,10 @@ function Skills() {
         <i className="devicon-firebase-plain-wordmark colored"></i>
         <i className="devicon-git-plain colored"></i>
         <i className="devicon-webpack-plain-wordmark colored"></i>
-        <i class="devicon-nodejs-plain-wordmark colored"></i>
-        <i class="devicon-mongodb-plain-wordmark colored"></i>
         <i className="devicon-python-plain-wordmark colored"></i>
+        <i class="devicon-nodejs-plain-wordmark colored"></i>
+        <i class="devicon-express-original-wordmark"></i>
+        <i class="devicon-mongodb-plain-wordmark colored"></i>
       </div>
     </SkillsStyled>
   )
